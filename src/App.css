@@ -1,0 +1,110 @@
+.text{
+  font-family: Verdana;
+  font-size: 150%;
+  color:white;
+  display: flex;
+  justify-content:flex-start;
+  margin-bottom: 5%;
+  }
+
+  .margin{
+  padding-left:20%;
+  padding-top: 10%;
+  }
+
+  #navbar {
+      display: flex;
+      justify-content: center; 
+      background-color: black;
+  }
+  
+  #navbar a {
+      padding: 0 5%;
+      color:#51F418;
+      font-size: 100%;
+      background-color: black;
+  }
+
+  .left-column{
+      padding-left:25%;
+      padding-top: 50%;
+  }
+
+  .h11{
+      color: white; 
+      font-family:"Times New Roman"; 
+      font-style: normal; 
+      font-weight: normal; 
+      text-decoration: none; 
+      font-size: 1000%; 
+      text-align:center;
+      margin:0pt; 
+  }
+  h4{
+      color: white; 
+      font-family:"Times New Roman"; 
+      font-style: normal; 
+      font-weight: normal; 
+      text-decoration: none; 
+      font-size: 300%; 
+      margin:0pt;
+      text-align:center;
+  }
+
+  .p1{
+      color: white; 
+      font-family:"Times New Roman"; 
+      font-style: normal; 
+      font-weight: normal; 
+      text-decoration: none; 
+      font-size: 150%; 
+      margin:0pt;
+      text-align:center; 
+  }
+
+  .profile-img{
+      border-radius:50%;
+  }
+
+  .avatar {
+      border-radius:70%;
+  }
+
+  .bullets{
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+  }
+
+
+  .maincontainer{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .duplicate{
+      display: flex;
+      flex-direction: row;
+  }
+
+  #about{
+      width: 40%;
+  }
+
+  #work{
+      width:80%;
+  }
+  #education{
+      width: 70%;
+  }
+
+  #aandc{
+      width: 70%;
+  }
+  @media (max-width: 800px) { 
+      .maincontainer{flex-direction: column-reverse;} 
+      .subcontainer{width: 100%;} 
+      .duplicate{flex-direction: column;} 
+      #about{width:100%;} 
+      #avatar{width: 100%;}
+  }
